@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.barun.baccha.Loginauth"
+    android:background="#468a51">
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/relativeLayout">
+
+        <EditText
+
+            android:backgroundTint="#FFFF"
+            android:textColor="#FFFF"
+            android:id="@+id/emailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:text="Email Id"/>
+
+        <EditText
+
+            android:backgroundTint="#FFFF"
+            android:inputType="textPassword"
+            android:textColorHint="#FFFF"
+            android:layout_below="@+id/emailid"
+            android:id="@+id/pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"/>
+
+
+
+    <Button
+        android:textColor="#FFFF"
+        android:background="#004d41"
+        android:layout_below="@id/pwd"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"/>
+
+    <Button
+        android:textColor="#FFFF"
+        android:layout_marginTop="5dp"
+        android:background="#004d41"
+        android:layout_below="@id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"/>
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/f"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/relativeLayout" />
+
+    <TextView
+        android:textColor="#FFFF"
+        android:textSize="14dp"
+        android:padding="10dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+
+        android:text="Don't have an account ? Click to Register -> " />
+
+
+</RelativeLayout>

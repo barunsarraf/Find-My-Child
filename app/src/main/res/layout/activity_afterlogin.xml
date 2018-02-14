@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:padding="2dp"
+    tools:context="com.example.barun.baccha.Afterlogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome "/>
+
+        <TextView
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/emmmmai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email"/>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_gravity="right"
+        android:textColor="#FFF"
+        android:background="#00BFA5"
+        android:id="@+id/registerforlost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER FOR LOST"
+        android:layout_marginTop="100dp"
+        />
+    <Button
+        android:layout_gravity="right"
+        android:textColor="#FFF"
+        android:background="#00BFA5"
+        android:id="@+id/searchfolost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH FOR LOST"
+        android:layout_marginTop="5dp"
+        />
+    <Button
+        android:layout_gravity="right"
+        android:textColor="#FFF"
+        android:background="#00BFA5"
+        android:id="@+id/registerforfound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER FOR FOUND"
+        android:layout_marginTop="5dp"
+        />
+    <Button
+        android:layout_gravity="right"
+        android:textColor="#FFF"
+        android:background="#00BFA5"
+        android:id="@+id/searchforfound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH FOR FOUND"
+        android:layout_marginTop="5dp"
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+
+        android:layout_marginRight="10dp"
+        android:id="@+id/imageButton"
+        android:background="#FFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:elevation="0dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+
+</RelativeLayout>
+
+
+</LinearLayout>

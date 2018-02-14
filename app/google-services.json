@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "975651747499",
+    "firebase_url": "https://baccha-47612.firebaseio.com",
+    "project_id": "baccha-47612",
+    "storage_bucket": "baccha-47612.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975651747499:android:35801cb582906a85",
+        "android_client_info": {
+          "package_name": "com.example.barun.baccha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975651747499-llkirq8e3mm8mn4olarhbcd6mk01s28u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.barun.baccha",
+            "certificate_hash": "83b23f7424bf6c854a5cb1bd31e6a35b2701b0fe"
+          }
+        },
+        {
+          "client_id": "975651747499-glsapgmbhnehusmogoe2uepesn61njni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNKjh8Wmq8JuL1lYaxLtepGFTvx9JaRJ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975651747499-glsapgmbhnehusmogoe2uepesn61njni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
